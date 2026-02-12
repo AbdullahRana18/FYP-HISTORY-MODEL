@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+groq
+huggingface_hub
+python-dotenv
+motor
+pydantic[email]
+passlib[bcrypt]
+python-jose[cryptography]
+pymongo
