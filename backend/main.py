@@ -26,7 +26,9 @@ app.add_middleware(
 
 # Load Knowledge Datasets
 BASE_DIR = os.path.dirname(__file__)
-HIST_DATA_PATH = os.path.join(BASE_DIR, "..", "data", "history_data.json")
+# HIST_DATA_PATH = os.path.join(BASE_DIR, "..", "data", "history_data.json")
+HIST_DATA_PATH = os.path.join(BASE_DIR, "history_data.json")
+
 
 def load_json(path):
     if os.path.exists(path):
